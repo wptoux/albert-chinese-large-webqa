@@ -29,6 +29,10 @@ from transformers import AutoModelForQuestionAnswering, BertTokenizer
 
 model = AutoModelForQuestionAnswering.from_pretrained('./model/albert-chinese-large-qa')
 tokenizer = BertTokenizer.from_pretrained('./model/albert-chinese-large-qa')
+
+# or use transformers repo
+model = AutoModelForQuestionAnswering.from_pretrained('wptoux/albert-chinese-large-qa')
+tokenizer = BertTokenizer.from_pretrained('wptoux/albert-chinese-large-qa')
 ```
 
 ## 存在的问题
