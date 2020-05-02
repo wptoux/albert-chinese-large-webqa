@@ -27,8 +27,8 @@
 ```
 from transformers import AutoModelForQuestionAnswering, BertTokenizer
 
-model = AutoModelForQuestionAnswering.from_pretrained('./model')
-tokenizer = BertTokenizer.from_pretrained('./model')
+model = AutoModelForQuestionAnswering.from_pretrained('./model/albert-chinese-large-qa')
+tokenizer = BertTokenizer.from_pretrained('./model/albert-chinese-large-qa')
 ```
 
 ## 存在的问题
